@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "仅用 Chrome 打开网页",
+    "description": "强制 DSH 中所有浏览器跳转只走 Google Chrome，并拦截其他任何浏览器。"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "@local/dsh-chrome-only",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Forces every browser navigation inside DeepSeek Harness to Google Chrome and blocks every other browser, including the dsh web default-browser handoff.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "chrome",
+    "browser"
+  ],
+  "license": "MIT",
+  "author": "SeekAfterSeek",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeekAfterSeek/dsh-chrome-only.git"
+  },
+  "homepage": "https://github.com/SeekAfterSeek/dsh-chrome-only#readme",
+  "bugs": {
+    "url": "https://github.com/SeekAfterSeek/dsh-chrome-only/issues"
+  },
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./scripts/Open-DshChrome.ps1": "./scripts/Open-DshChrome.ps1",
+    "./scripts/Install-WebProfile.ps1": "./scripts/Install-WebProfile.ps1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "scripts/Open-DshChrome.ps1",
+    "scripts/Install-WebProfile.ps1",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/matcher.test.mjs && node test/handoff.test.mjs"
+  }
+}

@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>chrome-only 本地文件测试</title></head>
+<body style="font-family:system-ui;padding:40px">
+  <h1>chrome_open 本地文件测试通过</h1>
+  <p>这个页面由 DSH 的 <code>chrome_open</code> 用 Google Chrome 打开，而不是系统默认应用。</p>
+  <p id="t"></p>
+  <script>document.getElementById('t').textContent = 'agent: ' + navigator.userAgent</script>
+</body>
+</html>

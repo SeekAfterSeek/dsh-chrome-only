@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Chrome Only Browser",
+    "description": "Forces every browser navigation in DSH to Google Chrome and blocks all other browsers."
+  }
+}
