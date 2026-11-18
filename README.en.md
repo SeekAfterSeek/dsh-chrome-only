@@ -1,3 +1,8 @@
+> **⚠️ Archived · V1.0.** This is the first generation of the DSH browser scheme: it only guaranteed that *every* navigation used Google Chrome. It did not look at the URL and did not care about proxying.
+> It evolved into [V2.0 chrome-clash-link](https://github.com/SeekAfterSeek/chrome-clash-link) (start Clash whenever Chrome opens), and then into [V3.0 dsh-url-router](https://github.com/SeekAfterSeek/dsh-url-router) (domestic → Edge direct, foreign → Chrome + Clash US node).
+>
+> **Use V3.0 instead — this repository is no longer maintained and is kept for history only.**
+
 > **⚠️ 已归档 · V1.0。** 这是 DSH 浏览器方案的第一代：只保证「所有跳转都走 Google Chrome」，不区分网址，也不管走不走代理。
 > 它之后演进出 [V2.0 chrome-clash-link](https://github.com/SeekAfterSeek/chrome-clash-link)（Chrome 打开时自动拉起 Clash），再到 [V3.0 dsh-url-router](https://github.com/SeekAfterSeek/dsh-url-router)（国内 → Edge 直连，境外 → Chrome + Clash 美国节点）。
 >
