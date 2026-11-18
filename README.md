@@ -1,3 +1,8 @@
+> **⚠️ 已归档 · V1.0。** 这是 DSH 浏览器方案的第一代：只保证「所有跳转都走 Google Chrome」，不区分网址，也不管走不走代理。
+> 它之后演进出 [V2.0 chrome-clash-link](https://github.com/SeekAfterSeek/chrome-clash-link)（Chrome 打开时自动拉起 Clash），再到 [V3.0 dsh-url-router](https://github.com/SeekAfterSeek/dsh-url-router)（国内 → Edge 直连，境外 → Chrome + Clash 美国节点）。
+>
+> **新项目请直接用 V3.0 —— 本仓库不再维护，代码仅作历史保留。**
+
 # Chrome Only Browser for DeepSeek Harness
 
 **强制 DSH 里所有浏览器跳转只走 Google Chrome。** 无论系统默认浏览器是什么，DSH 自己去开网页时只能是 Chrome；没人提浏览器就默认 Chrome，只有用户明确点名才允许例外。
